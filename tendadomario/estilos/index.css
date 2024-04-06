@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.header {
+  background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(../images/Mario.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 86vh;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar{
+   background-color: rgba(0, 0, 0, 0.267);
+   backdrop-filter: blur(10px);
+   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+
+  .navbar li {
+   height: 50px;
+   padding-top: 13px;
+   transition: all 0.3s;
+   font-weight: 700;
+  }
+  
+  .navbar a {
+    height: 100%;
+    padding: 0 73px;
+    text-decoration: none;
+    align-items: center;
+    color: #F9FAFC;
+  }
+
+  .navbar li:hover{
+    transform: scale(1.1);
+  }
+
+  .logo{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  #blanco{
+    color: #F9FAFC;
+    transition: all 0.3s;
+    text-shadow: -1px -1px 10px rgb(230, 221, 221) ;
+  }
+
+  #blanco:hover{
+    transform: scale(1.1);
+  }
+
+  .blanco{
+    color: #F9FAFC;
+    transition: all 0.3s;
+    text-shadow: -1px -1px 10px rgb(230, 221, 221) ;
+  }
+
+  .blanco:hover{
+    transform: scale(1.1);
+  }
+
+  #rojo{
+    color: red;
+    transition: all 0.3s;
+    text-shadow: -1px -1px 10px rgb(221, 6, 6) ;
+  }
+
+  #rojo:hover{
+    transform: scale(1.1);
+  }
+
+  .rojo{
+    color: red;
+    transition: all 0.3s;
+    text-shadow: -1px -1px 10px rgb(221, 6, 6) ;
+  }
+
+  .rojo:hover{
+    transform: scale(1.1);
+  }
+
+  .header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+  }
+
+  .header .logo img:hover{
+    transform: scale(1.2);
+  }
+
+  .sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 250vh;
+    background-color: rgba(0, 0, 0, 0.658);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    z-index: 999;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+
+  }
+
+  .sidebar li {
+    height: 70px;
+    transition: all 0.3s;
+   }
+   
+   .sidebar a {
+     height: 100%;
+     width: 100%;
+     padding: 40px 35px;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+   }
+
+   .sidebarbig{
+    filter: invert(23%) sepia(93%) saturate(6573%) hue-rotate(356deg) brightness(103%) contrast(124%);
+    transition: all 0.3s;
+  }
+
+   .sidebarbig:hover{
+    filter: invert(95%) sepia(45%) saturate(802%) hue-rotate(177deg) brightness(111%) contrast(97%);
+    transform: scale(1.1);
+  }
+
+   .sidebarbig2{
+    filter: invert(95%) sepia(45%) saturate(802%) hue-rotate(177deg) brightness(111%) contrast(97%);
+    transition: all 0.3s;
+  }
+
+   .sidebarbig2:hover{
+    filter: invert(23%) sepia(93%) saturate(6573%) hue-rotate(356deg) brightness(103%) contrast(124%);
+    transform: scale(1.1);
+  }
+
+   @media(max-width: 800px){
+    .hideOnmobile{
+      display: none;
+    }
+   }
+  
+  .header-content {
+    text-align: center;
+  }
+
+  .header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-shadow: -1px -1px 10px rgb(230, 221, 221) ;
+  }
+
+  .header-content p{
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+    padding: 0 100px;
+  }
+
+  .btn-1{
+    display: inline-block;
+    border: none;
+    padding: 11px 35px;
+    background-color: #ff0000;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    border-radius: 1000px;
+  }
+
+  .btn-1:hover{
+    background-color: #911c1c;
+    transition: all 0.6s;
+  }
+
+html{
+  scroll-behavior: smooth;
+}
+
+  .MenuMario {
+    padding: 165px 0;
+    background-color: #E1E2E6;
+  }
+
+  .MenuMario-content {
+    text-align: center;
+  }
+
+  .MenuMario-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding: 0 100px;
+    text-shadow: -1px -1px 10px rgb(65, 64, 64) ;
+  }
+
+  .txt-p {
+    font-size: 30px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+    padding: 0 100px;
+  }
+
+  .MenuMario-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .MenuMario-1{
+    padding: 0 25px;
+    width: 100%;
+  }
+
+  .MenuMario-2{
+    padding: 0 25px;
+    width: 100%;
+  }
+
+  .MenuMario-3{
+    padding: 0 25px;
+    width: 100%;
+  }
+
+  .MenuMario-1 img {
+    width: 300px;
+  }
+
+  .MenuMario-2 img {
+    width: 150px;
+  }
+
+  .MenuMario-3 img {
+    width: 220px;
+  }
+
+  .MenuMario-1 h3{
+    color: #323337;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-shadow: -1px -1px 10px rgb(36, 36, 36) ;
+  }
+
+  .MenuMario-2 h3{
+    color: #323337;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-shadow: -1px -1px 10px rgb(36, 36, 36) ;
+  }
+
+  .MenuMario-3  h3{
+    color: #323337;
+    font-size: 25px;
+    margin-bottom: 15px;
+    text-shadow: -1px -1px 10px rgb(36, 36, 36) ;
+  }
+
+  @media (max-width:800px){
+    .MenuMario-group{
+      flex-direction: column;
+    }
+  }
+
+  .map {
+    background-image: linear-gradient(
+       rgba(0, 0, 0, 0.7),
+       rgba(0, 0, 0, 0.7)),
+        url(../images/mario2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 180px 0;
+  }
+
+  .map-content {
+    text-align: center;
+    width: 100%;
+  }
+
+  .mapa{
+    margin: 0 auto;
+    background-color: rgba(248, 244, 244, 0.281);
+    border-radius: 20px;
+    width: 70%;
+  }
+
+  @media (max-width: 780px){
+    .mapa{
+      width: 100%;
+    }
+  }
+  
+
+  .mapa h2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #F9FAFC;
+    line-height: 60px;
+    color: red;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 10px rgb(221, 6, 6) ;
+  }
+
+  .frameMapa{
+    border-radius: 5px;
+    margin: 5px;
+    width: 90%;
+  }
+  
+
+  .map-content p{
+    font-size: 30px;
+    color: #f89797;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 10px rgb(255, 0, 0) ;
+  }
+
+  .general{
+    display: flex;
+  }
+
+.general-1{
+  width: 50%;
+  padding: 100px 250px 100px 100px;
+  background-color: #e6e1e1;
+}
+
+.general-2{
+  background-image: url(../images/Dulces2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.general-3{
+  background-image: url(../images/Facundown.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.general-1 h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #323337;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.general-1 p{
+  font-size: 16px;
+  color: #414247;
+  margin: 25px 0 45px 0;
+}
+
+.footer {
+  padding: 100px 0;
+  background-color: #000000;
+}
+
+.footer-content{
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link h3{
+  font-size: 18px;
+  color: #F9FAFC;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.link h2{
+  font-size: 16px;
+  color: #c5c5c5;
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+@media (max-width:1100px){
+  .general{
+    flex-direction: column;
+  }
+  .general-1{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .general-2, .general-3{
+    display: none;
+  }
+
+  .footer{
+    padding: 30px;
+  }
+
+  .footer-content{
+    flex-direction: column;
+    text-align: center;
+  }
+}
