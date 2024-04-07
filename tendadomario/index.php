@@ -34,7 +34,7 @@
                     <li><a class="hideOnmobile" href="productos.php" id="rojo">Productos</a></li>
                     <li><a class="hideOnmobile" href="https://www.instagram.com/mario_store_krause/" id="blanco" >Contacto</a></li>
                     <li><a class="hideOnmobile" href="#MAPIENSE" id="rojo">Mapa</a></li>
-                    <li onclick=showSidebar()><a class="sidebarbig" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M100.782-212.303v-106.001h758.436v106.001H100.782Zm0-214.696v-106.002h758.436v106.002H100.782Zm0-214.697v-106.001h758.436v106.001H100.782Z"/></svg></a></li>
+                    <li onclick=showSidebar()><span class="sidebarbig"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="M100.782-212.303v-106.001h758.436v106.001H100.782Zm0-214.696v-106.002h758.436v106.002H100.782Zm0-214.697v-106.001h758.436v106.001H100.782Z"/></svg></span></li>
                 </ul>
             </nav>
 

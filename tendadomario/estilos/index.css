@@ -60,7 +60,7 @@ body {
    font-weight: 700;
   }
   
-  .navbar a {
+  .navbar span {
     height: 100%;
     padding: 0 73px;
     text-decoration: none;
@@ -150,7 +150,7 @@ body {
     transition: all 0.3s;
    }
    
-   .sidebar a {
+   .sidebar span{
      height: 100%;
      width: 100%;
      padding: 40px 35px;

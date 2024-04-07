@@ -258,6 +258,7 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
+  contain:none;
   /* oculto lo que queda fuera del .contenedor */
   margin-bottom: 50px;
 }

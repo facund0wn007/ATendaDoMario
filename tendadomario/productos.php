@@ -98,7 +98,8 @@
                 ?>
                 </div>
         <!-- Carrito de Compras -->
-        <div class="carrito filtro" id="carrito">
+        <section class="carrito filtro" id="carrito">
+        <div>
             <div class="header-carrito">
                 <h2>Tu Carrito</h2>
             </div>
@@ -147,6 +148,7 @@
                 <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
             </div>
         </div>
+        </section>
     </section>
     <footer class="footer">
 
